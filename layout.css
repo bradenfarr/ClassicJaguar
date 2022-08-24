@@ -1,0 +1,92 @@
+.tab_menu {
+    overflow: hidden;
+    background-color: #333;
+}
+.tab_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.tab_menu a:hover {
+    background-color: white;
+    color: green;
+}
+
+.products {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding : 14px 16px;
+  text decoration: none;
+}
+
+#products1 a {
+  overflow: hidden;
+  color: white;
+  float: right;
+  font-size: 40px;
+  border: 5px rgb(97, 137, 47);
+  border-style: outset;
+  margin-right: 200px;
+}
+
+#products2 a {
+  overflow: hidden;
+  color: white;
+  float: left;
+  font-size: 40px;
+  border: 5px rgb(97, 137, 47);
+  border-style: outset;
+  margin-left: 200px;
+}
+
+#products1 a:hover {
+  background-color: rgb(97, 137, 47);
+}
+
+#products2 a:hover {
+  background-color: rgb(97, 137, 47);
+}
+
+#ctypelink a {
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  font-size: 30px;
+  border: 5px rgb(97, 137, 47);
+  border-style: outset;
+}
+
+#etypelink a{
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  font-size: 30px;
+  border: 5px rgb(97, 137, 47);
+  border-style: outset;
+}
+
+
+.header {
+    background-color: rgb(71, 75, 79);
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:100px;
+}
